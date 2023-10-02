@@ -227,6 +227,18 @@ footer {
   text-decoration: none;
 }
 
+.footer-right {
+  display: flex;
+  gap: 20px;
+}
+
+.social-circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 100px;
+  background-color: red;
+}
+
 /* Laptop */
 
 @media screen and (min-width: 920px) and (max-width: 1200px) {
